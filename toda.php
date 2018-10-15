@@ -1,10 +1,8 @@
-<!DOCTYPE html>
 <html>
 <body>
 
-<?php
-echo "הפרטים הוזנו במערכת, נחזור לדף הבית במספר שניות"
-?>
+Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
 
 </body>
-</html>
+</html> 
